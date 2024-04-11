@@ -166,48 +166,15 @@ def movie_data (df, type):
                             
                         else:
                             puntuacion_imdb = np.nan # Si no encuentra la valoración, le asigna '-' por defecto
-
-                        break
+                            break
                 except:
                     pass
-                
-            driver.find_element('css selector', '#rso > div:nth-child(1) > div > div > div > div.kb0PBd.cvP2Ce.A9Y9g.jGGQ5e > div > div > span > a > div').click()    
-            
-            sleep(random.uniform(1.5 , 2.0))
-        
-            # Acepta las cookies si es necesario
-            try:
-                driver.find_element("css selector" , "#__next > div > div > div.sc-jrcTuL.bPmWiM > div > button.icb-btn.sc-bcXHqe.sc-hLBbgP.sc-ftTHYK.dcvrLS.dufgkr.ecppKW").click()
-            except:
-                pass
-            
-            info = driver.find_element('xpath' , f'//*[@id="__next"]/main/div/section[1]/section/div[3]/section').text 
-            info = info.split('\n')
-            
-            for indice, dato in enumerate(info):
-                
-                separador = re.compile(r'(?<=[a-z])(?=[A-Z])')
-                
-                if 'direccion' == unidecode(dato.lower()):
-                    
-                    datos_direccion = info[indice+1]
-            
-                    # Utiliza el patrón de regex para separar los elementos de la string
-                    datos_direccion = separador.split(datos_direccion)
-                    
-                    if len(datos_direccion) == 1:
-                        datos_direccion = datos_direccion[0]
-            
-            tupla = (nombre_peli , puntuacion_rotten, puntuacion_imdb, datos_direccion) # Genera una tupla 
-            datos.append(tupla) # Añade la tupla a la lista
-            
-            driver.back()
             
             limpieza = WebDriverWait(driver, espera).until(EC.presence_of_element_located((By.CSS_SELECTOR, "#tsf > div:nth-child(1) > div.A8SBwf > div.RNNXgb > div > div.dRYYxd > div.BKRPef > div")))
             limpieza.click()
             sleep(random.uniform(1.5 , 2.0))
         
-        column_names = ['title', 'rotten_score', 'imdb_score', 'direction']
+        column_names = ['title', 'rotten_score', 'imdb_score']
         
         df = pd.DataFrame(datos, columns=column_names)
     

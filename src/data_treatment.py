@@ -2,6 +2,7 @@
 import pandas as pd
 import numpy as np
 import re
+from ast import literal_eval
 
 # Imputación de nulos usando métodos avanzados estadísticos
 from sklearn.experimental import enable_iterative_imputer
@@ -44,6 +45,28 @@ def get_only_animation (df , list):
     
     # Elimina las columnas sobrantes
     df.drop(['Animation', 'index'], axis = 1, inplace = True)
+    
+    return df
+
+
+def to_list(dato_columna):
+    try:
+        # Verifica si el dato es una cadena 
+        if "[" in dato_columna:
+            return literal_eval(dato_columna)
+        else:
+            return dato_columna
+    except:
+        return dato_columna
+    
+    
+def separate_directors (df):
+
+    df['Director 1'] = df['direction'].apply(lambda x : x[0] if isinstance(x, list) and len(x) >= 1 else x)
+    df['Director 2'] = df['direction'].apply(lambda x : x[1] if isinstance(x, list) and len(x) >= 2 else np.nan)
+    df['Director 3'] = df['direction'].apply(lambda x : x[2] if isinstance(x, list) and len(x) >= 3 else np.nan)
+    
+    df.drop('direction', axis = 1, inplace = True)
     
     return df
 
