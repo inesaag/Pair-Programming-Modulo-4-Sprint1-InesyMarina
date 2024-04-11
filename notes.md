@@ -4,17 +4,25 @@
 
 ### Columnas a mantener en ambos DataFrame (y orden)
 - Título de la película
-- Año
-- Director
+- Año de estreno
+- Director **a añadir**
 - Presupuesto
-- Género 
+- Género (obviando animación)
 - Duración (en min)
-- Puntuación RT
-- Puntuación IMDb
+- Puntuación RT **a añadir**
+- Puntuación IMDb **a añadir**
 - Budget
-- Opening Weekend (millones)
 - Revenue / Worldwide Gross (millones)
 - Beneficio
-- País con mayor revenue
-- Revenue en el país
+
+### Nuevo DF (puntuaciones)
+- Título de la película
+- Pais
+- Fecha de estreno
+
+### Nuevo DF (fechas)
+- Título de la película
+- Pais
+- Fecha de estreno
+
 
