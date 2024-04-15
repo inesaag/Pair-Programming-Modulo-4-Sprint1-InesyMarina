@@ -70,3 +70,28 @@ def separate_directors (df):
     
     return df
 
+def adding_movies_genre (df):
+    
+    dict = {'Dumbo' : 'Adventure',
+               'Bambi' : 'Adventure',
+               'Saludos Amigos' : 'Adventure',
+               'The Three Caballeros' : 'Comedy',
+               'Make Mine Music' : 'Comedy',
+               'Fun and Fancy Free' : 'Adventure',
+               'Melody Time' : 'Comedy',
+               'The Adventures of Ichabod and Mr. Toad' : 'Comedy',
+               'Peter Pan' : 'Adventure',
+               'One Hundred and One Dalmatians' : 'Adventure',
+               'Robin Hood' : 'Adventure',
+               'Fantasia 2000' : 'Musical',
+               'Ralph Breaks the Internet' : 'Adventure',
+               'Frozen II' : 'Adventure',
+               'Raya and the Last Dragon' : 'Action'
+               }
+    
+    for movie, genre in dict.items():
+        
+        df[movie] = movie
+        
+    return df
+

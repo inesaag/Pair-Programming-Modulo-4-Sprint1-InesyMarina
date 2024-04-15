@@ -25,6 +25,7 @@ df_disney = dt.open_csv('files/disney_animation.csv')
 df_disney_details = dt.open_csv('files/disney_details.csv')
 df_ghibli_details = dt.open_csv('files/ghibli_details.csv')
 
+
 #%%
 df_disney = pd.merge(df_disney, df_disney_details, left_on='title', right_on='title', how='inner')
 df_ghibli = pd.merge(df_ghibli, df_ghibli_details, left_on='Name', right_on='title', how='inner')
@@ -35,7 +36,12 @@ df_disney['direction'] = df_disney['direction'].apply(dt.to_list)
 df_disney = dt.separate_directors(df_disney)
 
 # %%
-df_disney.head(5)
+df_disney_genre = dt.open_csv('files/disney_movies.csv')
+df_disney_genre = df_disney_genre[['movie_title' , 'genre']]
+df_disney_genre = df_disney_genre.drop_duplicates()
+df_disney = pd.merge(df_disney, df_disney_genre, left_on='title', right_on='movie_title', how='left')
+
+
 # %%
-df_ghibli.head(5)
+df_disney[df_disney['genre'].isnull()].shape[0]
 # %%
