@@ -89,9 +89,10 @@ def adding_movies_genre (df):
                'Raya and the Last Dragon' : 'Action'
                }
     
-    for movie, genre in dict.items():
-        
-        df[movie] = movie
+    # Convertir el diccionario a DataFrame
+    new_data = pd.DataFrame(list(dict.items()), columns=['movie_title', 'genre'])
+
+    df = pd.concat([df, new_data], ignore_index=True)
         
     return df
 
