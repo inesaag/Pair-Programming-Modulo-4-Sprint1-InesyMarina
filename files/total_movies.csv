@@ -1,0 +1,91 @@
+,Movie Title,Release Year,Director,Budget,Revenue,Genre,Duration,Rotten Tomatoes,IMDb,Studio
+0,Snow White and the Seven Dwarfs,1937,William Cottrell,1490000.0,418000000.0,Musical,83,93,76,Disney
+1,Pinocchio,1940,Norman Ferguson,2600000.0,164000000.0,Adventure,88,100,74,Disney
+2,Fantasia,1940,James Algar,2280000.0,83300000.0,Musical,126,95,78,Disney
+3,Dumbo,1941,Samuel Armstrong,950000.0,1300000.0,Adventure,64,98,72,Disney
+4,Bambi,1942,James Algar,858000.0,267400000.0,Adventure,70,90,73,Disney
+5,Saludos Amigos,1942,Wilfred Jackson,18667704.0,1135000.0,Adventure,42,83,61,Disney
+6,The Three Caballeros,1944,Norman Ferguson,18667704.0,3355000.0,Comedy,71,82,64,Disney
+7,Make Mine Music,1946,Robert Cormack,1350000.0,3275000.0,Comedy,75,70,63,Disney
+8,Fun and Fancy Free,1947,Jack Kinney,18667704.0,3165000.0,Adventure,73,67,66,Disney
+9,Melody Time,1948,Clyde Geronimi,1500000.0,2560000.0,Comedy,75,80,64,Disney
+10,The Adventures of Ichabod and Mr. Toad,1949,James Algar,18667704.0,1625000.0,Comedy,68,94,70,Disney
+11,Cinderella,1950,Clyde Geronimi,2900000.0,263600000.00000003,Drama,74,84,69,Disney
+12,Alice in Wonderland,1951,Clyde Geronimi,3000000.0,5600000.0,Adventure,75,51,64,Disney
+13,Peter Pan,1953,Clyde Geronimi,4000000.0,87400000.0,Adventure,77,81,73,Disney
+14,Lady and the Tramp,1955,Clyde Geronimi,4000000.0,187000000.0,Drama,76,93,73,Disney
+15,Sleeping Beauty,1959,Les Clark,6000000.0,51600000.0,Drama,75,89,72,Disney
+16,One Hundred and One Dalmatians,1961,Clyde Geronimi,3600000.0,303000000.0,Adventure,79,98,72,Disney
+17,The Sword in the Stone,1963,Wolfgang Reitherman,3000000.0,22200000.0,Adventure,79,66,72,Disney
+18,The Jungle Book,1967,Wolfgang Reitherman,4000000.0,378000000.0,Musical,78,94,74,Disney
+19,The Jungle Book,1967,Wolfgang Reitherman,4000000.0,378000000.0,Adventure,78,94,74,Disney
+20,The Aristocats,1970,Wolfgang Reitherman,4000000.0,191000000.0,Musical,79,64,71,Disney
+21,Robin Hood,1973,Wolfgang Reitherman,5000000.0,32000000.0,Adventure,83,43,66,Disney
+22,The Rescuers,1977,John Lounsbery,7500000.0,169000000.0,Adventure,77,81,69,Disney
+23,The Fox and the Hound,1981,Ted Berman,12000000.0,63500000.0,Comedy,83,70,73,Disney
+24,The Black Cauldron,1985,Ted Berman,25000000.0,21300000.0,Adventure,80,53,64,Disney
+25,The Great Mouse Detective,1986,Ron Clements,14000000.0,38700000.0,Adventure,74,80,72,Disney
+26,Oliver & Company,1988,George Scribner,31000000.0,121000000.0,Adventure,74,50,67,Disney
+27,The Little Mermaid,1989,Ron Clements,40000000.0,211343479.0,Adventure,83,93,76,Disney
+28,The Rescuers Down Under,1990,Hendel Butoy,18667704.0,47400000.0,Adventure,77,69,69,Disney
+29,Beauty and the Beast,1991,Gary Trousdale,25000000.0,440100000.0,Musical,84,94,80,Disney
+30,Aladdin,1992,Ron Clements,28000000.0,504100000.0,Comedy,90,95,80,Disney
+31,The Lion King,1994,Roger Allers,45000000.0,968500000.0,Adventure,88,93,85,Disney
+32,Pocahontas,1995,Mike Gabriel,55000000.0,346100000.0,Adventure,81,55,67,Disney
+33,The Hunchback of Notre Dame,1996,Gary Trousdale,100000000.0,325300000.0,Adventure,91,71,69,Disney
+34,Hercules,1997,Ron Clements,85000000.0,252700000.0,Adventure,93,84,73,Disney
+35,Mulan,1998,Tony Bancroft,90000000.0,304300000.0,Adventure,87,86,76,Disney
+36,Tarzan,1999,Chris Buck,130000000.0,448200000.0,Adventure,88,89,73,Disney
+37,Fantasia 2000,1999,James Algar,85000000.0,90900000.0,Musical,74,81,72,Disney
+38,Dinosaur,2000,Eric Leighton,127500000.0,349800000.0,Adventure,82,64,65,Disney
+39,The Emperor's New Groove,2000,Mark Dindal,100000000.0,169300000.0,Adventure,78,85,73,Disney
+40,Atlantis: The Lost Empire,2001,Gary Trousdale,90000000.0,186100000.0,Adventure,96,49,69,Disney
+41,Lilo & Stitch,2002,Dean De,80000000.0,273100000.0,Adventure,85,86,72,Disney
+42,Treasure Planet,2002,Ron Clements,140000000.0,109600000.0,Adventure,95,69,72,Disney
+43,Brother Bear,2003,Aaron Blaise,46000000.0,250400000.0,Adventure,85,37,68,Disney
+44,Home on the Range,2004,Will Finn,110000000.0,145500000.0,Comedy,76,53,53,Disney
+45,Chicken Little,2005,Mark Dindal,150000000.0,314400000.0,Adventure,81,37,57,Disney
+46,Meet the Robinsons,2007,Stephen J. Anderson,100000000.0,169300000.0,Adventure,94,67,68,Disney
+47,Bolt,2008,Byron Howard,150000000.0,310000000.0,Comedy,96,89,68,Disney
+48,The Princess and the Frog,2009,Ron Clements,105000000.0,269000000.0,Adventure,97,85,71,Disney
+49,Tangled,2010,Nathan Greno,260000000.0,592400000.0,Adventure,100,89,77,Disney
+50,Winnie the Pooh,2011,Stephen J. Anderson,30000000.0,50100000.0,Adventure,69,91,72,Disney
+51,Wreck-It Ralph,2012,Rich Moore,165000000.0,471200000.0,Adventure,101,87,77,Disney
+52,Frozen,2013,Chris Buck,150000000.0,1280000000.0,Adventure,102,90,74,Disney
+53,Big Hero 6,2014,Don Hall,165000000.0,657800000.0,Adventure,102,89,78,Disney
+54,Zootopia,2016,Byron Howard,150000000.0,1024000000.0,Adventure,108,98,80,Disney
+55,Moana,2016,Ron Clements,150000000.0,690800000.0,Adventure,107,95,76,Disney
+56,Ralph Breaks the Internet,2018,Phil Johnston,175000000.0,529300000.0,Adventure,112,88,71,Disney
+57,Frozen II,2019,Chris Buck,150000000.0,1450000000.0,Adventure,103,77,69,Disney
+58,Raya and the Last Dragon,2021,Don Hall,100000000.0,130423032.0,Action,107,93,73,Disney
+59,Encanto,1985,Jared Bush,50000000.0,256786742.0,Comedy,102,91,72,Disney
+60,Lightyear,1999,Angus MacLane,200000000.0,226425420.0,Action,105,74,61,Disney
+61,Strange World,1988,Don Hall,120000000.0,73621640.0,Action,102,72,57,Disney
+62,Elemental,2001,Peter Sohn,200000000.0,496444308.0,Adventure,101,73,70,Disney
+63,Wish,1990,Chris Buck,200000000.0,254795156.0,Adventure,95,48,56,Disney
+64,Soul,1983,Pete Docter,150000000.0,121977511.0,Adventure,100,95,80,Disney
+65,Turning Red,2008,Domee Shi,175000000.0,21000000.0,Comedy,100,95,70,Disney
+66,Luca,1997,Enrico Casarosa,200000000.0,51074773.0,Adventure,95,91,74,Disney
+0,When Marnie Was There       ,2014,Hiromasa Yonebayashi,1150000000.0,34949567.0,Drama,103,92,76,Ghibli
+1,The Tale of The Princess Kaguya       ,2013,Isao Takahata,49300000.0,24366656.0,Drama,137,100,80,Ghibli
+2,The Wind Rises       ,2013,Hayao Miyazaki,30000000.0,117932401.0,Drama,126,88,78,Ghibli
+3,From Up on Poppy Hill       ,2011,Goro Miyazaki,22000000.0,61037844.0,Drama,91,88,74,Ghibli
+4,The Secret World of Arrietty       ,2010,Hiromasa Yonebayashi,23000000.0,149480483.0,Fantasy,94,94,76,Ghibli
+5,Ponyo       ,2008,Hayao Miyazaki,34000000.0,202404009.0,Fantasy,100,91,76,Ghibli
+6,Ocean Waves       ,1994,Tomomi Mochizuki,5000000.0,100000.0,Drama,72,89,66,Ghibli
+7,Tales from Earthsea       ,2006,Goro Miyazaki,22000000.0,68625104.0,Fantasy,115,38,63,Ghibli
+8,Only Yesterday       ,1991,Isao Takahata,2500000.0,473110.0,Drama,119,100,76,Ghibli
+9,Spirited Away       ,2001,Hayao Miyazaki,19000000.0,274925095.0,Family,125,96,86,Ghibli
+10,My Neighbors the Yamadas       ,1999,Isao Takahata,20500000.0,167000000.0,Family,104,78,71,Ghibli
+11,Whisper of the Heart       ,1995,Yoshifumi Kondo,7000000.0,34900000.0,Drama,111,95,78,Ghibli
+12,Grave of the Fireflies       ,1988,Isao Takahata,3700000.0,516962.0,Drama,89,100,85,Ghibli
+13,My Neighbor Totoro       ,1988,Hayao Miyazaki,3700000.0,41000000.0,Fantasy,86,93,81,Ghibli
+14,Princess Mononoke       ,1997,Hayao Miyazaki,23500000.0,169000000.0,Adventure,134,93,83,Ghibli
+15,Howl's Moving Castle       ,2004,Hayao Miyazaki,24000000.0,236049757.0,Fantasy,119,87,82,Ghibli
+16,Castle in the Sky       ,1986,Hayao Miyazaki,3000000.0,5228752.0,Adventure,125,96,80,Ghibli
+17,Kiki's Delivery Service       ,1989,Hayao Miyazaki,6900000.0,4493017.0,Family,103,98,78,Ghibli
+18,Pom Poko,1994,Isao Takahata,12000000.0,4470000000.0,Adventure,119,86,73,Ghibli
+19,Porco Rosso,1992,Hayao Miyazaki,9200000.0,34100000.0,Family,93,96,77,Ghibli
+20,The Cat Returns,2002,Hiroyuki Morita,20000000.0,54016370.0,Adventure,75,88,71,Ghibli
+21,Nausicaä of the Valley of the Wind,1984,Hayao Miyazaki,1000000.0,3301446.0,Adventure,117,90,80,Ghibli
+22,The Boy and the Heron,2023,Hayao Miyazaki,100000000.0,167000000.0,Fantasy,124,97,76,Ghibli
