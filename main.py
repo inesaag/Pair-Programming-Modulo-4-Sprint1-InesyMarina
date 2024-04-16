@@ -100,6 +100,11 @@ df_ghibli['Studio'] = 'Ghibli'
 df_ghibli['IMDb'] = df_ghibli['IMDb'].astype(int)
 df_ghibli['Rotten Tomatoes'] = df_ghibli['Rotten Tomatoes'].astype(int)
 
+
+#%%
+df_ghibli.head(30)
+#%%
+df_disney.head(60)
 # %%
-df_final = pd.concat([df_disney, df_ghibli])
-df_final.to_csv('files/total_movies.csv')
+#df_final = pd.concat([df_disney, df_ghibli]).reset_index()
+#df_final.to_csv('files/total_movies.csv')
