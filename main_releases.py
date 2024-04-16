@@ -29,7 +29,7 @@ ghibli_movies = ghibli_movies_clean
 ghibli_releases = sp.release_dates(ghibli_movies)
 disney_releases = sp.release_dates(disney_movies)
 
-#limpio los filtros
+#limpio los 'filtros' en disney
 palabras = ['DVD', 're-release', 'Blu-ray']
 
 for release in disney_releases:
@@ -38,8 +38,19 @@ for release in disney_releases:
             if palabra in release['filtro']:
                 disney_releases.remove(release)
 
-#despues de la limpieza quitamos todos los "filtro que han quedado"
+#limpio los 'filtros' en ghibli
+for release in ghibli_releases:
+    if len(release) > 3:
+        for palabra in palabras:
+            if palabra in release['filtro']:
+                ghibli_releases.remove(release)
+
+#despues de la limpieza quitamos todos los 'filtro' que han quedado
 for release in disney_releases:
+    if len(release) > 3:
+        release.popitem()  
+
+for release in ghibli_releases:
     if len(release) > 3:
         release.popitem()  
 
