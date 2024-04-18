@@ -106,5 +106,18 @@ df_ghibli.head(30)
 #%%
 df_disney.head(60)
 # %%
-#df_final = pd.concat([df_disney, df_ghibli]).reset_index()
-#df_final.to_csv('files/total_movies.csv')
+df_final = pd.concat([df_disney, df_ghibli]).reset_index()
+df_final.to_csv('files/total_movies.csv')
+
+#%%
+df = dt.open_csv('files/total_movies.csv')
+# %%
+df_disney = df[df['Studio'] == 'Disney']
+df_ghibli = df[df['Studio'] == 'Ghibli']
+# %%
+df_disney = df_disney.sort_values(by='Release Year')
+df_ghibli = df_ghibli.sort_values(by='Release Year')
+# %%
+for movie in df_disney['Movie Title']:
+    print(movie)
+# %%
